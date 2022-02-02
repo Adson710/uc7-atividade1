@@ -11,7 +11,8 @@ git pull
 arquivo(.gitignore)
 
 //para clonar a pasta do repositório remoto
-(git clone
+(git clone)
 git clone https://github.com/Adson710/uc7-atividade1.git
 
-//
+//Para criar uma nova branch (-b == branch)
+git checkout -b nova-branch
