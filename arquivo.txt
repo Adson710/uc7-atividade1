@@ -1,0 +1,12 @@
+//Para adicionar o repositorio remoto (do github) ao local
+git remote add origin https://github.com/Adson710/uc7-atividade1.git
+
+//Para publicar os arquivos do repositorio local no remoto (github)
+git push -u origin master
+
+//Para baixar alteraçoes feitas no repositorio remoto
+git pull
+
+//Para adicionar os arquivos, ou pastas que nao serao monitoradas 
+arquivo(.gitignore)
+
