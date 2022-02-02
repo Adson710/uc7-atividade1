@@ -21,4 +21,7 @@
  git checkout
 
 //Voltar para branch master
-git checkout master
+ git checkout master
+
+//Fazer a mesclagem da branch no trunk
+ git merge nova-branch
