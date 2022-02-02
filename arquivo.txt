@@ -1,18 +1,27 @@
 //Para adicionar o repositorio remoto (do github) ao local
-git remote add origin https://github.com/Adson710/uc7-atividade1.git
+ git remote add origin https://github.com/Adson710/uc7-atividade1.git
 
 //Para publicar os arquivos do repositorio local no remoto (github)
-git push -u origin master
+ git push -u origin master
 
 //Para baixar alteraçoes feitas no repositorio remoto
-git pull
+ git pull
 
 //Para adicionar os arquivos, ou pastas que nao serao monitoradas 
-arquivo(.gitignore)
+ arquivo(.gitignore)
 
 //para clonar a pasta do repositório remoto
-(git clone)
-git clone https://github.com/Adson710/uc7-atividade1.git
+ (git clone)
+ git clone https://github.com/Adson710/uc7-atividade1.git
 
 //Para criar uma nova branch (-b == branch)
-git checkout -b nova-branch
+ git checkout -b nova-branch
+
+//Alternar entre branchs
+ git checkout
+
+//Voltar para branch master
+ git checkout master
+
+//Fazer a mesclagem da branch no trunk
+ git merge nova-branch
